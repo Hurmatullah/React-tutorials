@@ -1,7 +1,9 @@
+import Blog from "./Blog";
+
 function App() {
   return (
     <div className="home">
-      <h2>Hello world</h2>
+      <Blog title="Hello world1" />
     </div>
   );
 }
